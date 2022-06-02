@@ -8,9 +8,8 @@ if (!token) {
     console.error('NPM_TOKEN environment variable is not set');
     process.exit(1);
 }
-
 // publish the package to NPM
-await npmPublish({
+npmPublish({
   package: './package.json',
   token
 });
