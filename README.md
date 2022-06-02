@@ -9,7 +9,7 @@ npm install hostname-patcher
 For some strange reason, `os.hostname()` is always broken if you're using a version of Node.js not officially supported in Windows 7 (v14.x.x and above), so, this module aims to keep it working.
 
 ## Don't want to use it? (Worried about adding this?)
-You'll not have any problem using this patch, because it checks if it's needed before doing its work (see here).
+You'll not have any problem using this patch, because it checks if it's needed before doing its work (see [here](https://github.com/Bellisario/hostname-patcher/blob/a5b63802a7d26481cd46846b1c10f327ceb2034f/lib/index.js#L6)).
 
 ## How to use
 ### Common.js
@@ -38,10 +38,10 @@ import { moduleUsingOS } from 'example';
 // will output "localhost" if patch, else your real hostname
 console.log(os.hostname());
 ```
-> All examples available in the test folder.
+> All examples available in the [test folder](https://github.com/Bellisario/hostname-patcher/tree/master/test).
 
 ## Tested modules
-- [Nodemailer](https://github.com/nodemailer/nodemailer) (Common.js example here and ES6 here)
+- [Nodemailer](https://github.com/nodemailer/nodemailer) (Common.js example [here](https://github.com/Bellisario/hostname-patcher/blob/master/test/Common.js/nodemailer.js) and ES6 [here](https://github.com/Bellisario/hostname-patcher/blob/master/test/ES6/nodemailer.mjs))
 - __Let us know this patch is useful for other modules__
 
 ## For modules builders
