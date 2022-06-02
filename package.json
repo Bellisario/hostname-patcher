@@ -1,0 +1,24 @@
+{
+  "name": "hostname-patcher",
+  "version": "1.0.0",
+  "description": "Patches os.hostname() for Windows 7 devices using a not officially Node.js supported version",
+  "keywords": [
+    "os",
+    "hostname",
+    "windows",
+    "windows7",
+    "patch",
+    "patcher"
+  ],
+  "main": "./lib/index.js",
+  "scripts": {
+    "npm-publish": "node ./publish.js",
+    "test": "echo \"Install package with DEV Dependencies and run code inside test folder to test\" && exit 0"
+  },
+  "author": "Bellisario",
+  "license": "ISC",
+  "devDependencies": {
+    "@jsdevtools/npm-publish": "^1.4.3",
+    "nodemailer": "^6.7.5"
+  }
+}

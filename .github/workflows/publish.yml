@@ -1,0 +1,25 @@
+name: Publish
+
+on: [push]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node 16.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Publish
+        run: npm run npm-publish
+        env:
+          CI: true
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
