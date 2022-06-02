@@ -15,6 +15,14 @@
     "npm-publish": "node ./publish.js",
     "test": "echo \"Install package with DEV Dependencies and run code inside test folder to test\" && exit 0"
   },
+  "bugs": {
+    "url": "https://github.com/Bellisario/hostname-patcher/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bellisario/hostname-patcher.git"
+  },
+  "homepage": "https://github.com/Bellisario/hostname-patcher",
   "author": "Bellisario",
   "license": "ISC",
   "devDependencies": {
