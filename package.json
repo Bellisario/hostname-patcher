@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Bellisario/hostname-patcher",
   "author": "Bellisario",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@jsdevtools/npm-publish": "^1.4.3",
     "nodemailer": "^6.7.5"
