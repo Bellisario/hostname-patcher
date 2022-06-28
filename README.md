@@ -1,4 +1,15 @@
-# Hostname Patcher
+# Hostname Patcher [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Opened Issues][IssuesIMGURL]][IssuesURL] [![Monthly Downloads][DownloadsIMGURL]][NPMURL]
+
+[NPMURL]: https://npmjs.org/package/hostname-patcher "npm"
+[NPMIMGURL]: https://img.shields.io/npm/v/hostname-patcher.svg?style=flat
+[BuildStatusURL]: https://github.com/Bellisario/hostname-patcher/actions/workflows/publish.yml "Publish Status"
+[BuildStatusIMGURL]: https://github.com/Bellisario/hostname-patcher/workflows/Publish/badge.svg
+[LicenseURL]: https://github.com/Bellisario/hostname-patcher/LICENSE "MIT License"
+[LicenseIMGURL]: https://img.shields.io/github/license/Bellisario/hostname-patcher
+[IssuesURL]: https://github.com/Bellisario/hostname-patcher/issues "Opened Issues"
+[IssuesIMGURL]: https://img.shields.io/github/issues/Bellisario/hostname-patcher
+[DownloadsIMGURL]: https://img.shields.io/npm/dm/hostname-patcher "Monthly Downloads"
+
 > Patches `os.hostname()` for Windows 7 devices using a not officially Node.js supported version
 
 ## Installation
