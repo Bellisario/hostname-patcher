@@ -3,5 +3,5 @@ require('../../lib/index');
 // then os
 const os = require('os');
 
-// will output "localhost" if patch, else your real hostname
+// will output your real hostname if patch and if not
 console.log(os.hostname());
