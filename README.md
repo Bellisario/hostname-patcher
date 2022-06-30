@@ -19,7 +19,7 @@ npm install hostname-patcher
 ## Use cases
 For some strange reason, `os.hostname()` is always broken if you're using a version of Node.js not officially supported in Windows 7 (v14.x.x and above), so, this module aims to keep it working.
 
-> __News:__ Now the patched hostname will be your real hostname, not "localhost".
+> __News:__ Now also patched devices will have the real hostname, instead of the default "localhost".
 
 ## Don't want to use it? (Worried about adding this?)
 You'll not have any problem using this patch, because it checks if it's needed before doing its work (see [here](https://github.com/Bellisario/hostname-patcher/blob/a5b63802a7d26481cd46846b1c10f327ceb2034f/lib/index.js#L6)).
