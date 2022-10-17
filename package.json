@@ -13,7 +13,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "npm-publish": "node ./publish.js",
-    "test": "echo \"Install package with DEV Dependencies and run code inside test folder to test\" && exit 0"
+    "test": "ava ./test/index.js"
   },
   "bugs": {
     "url": "https://github.com/Bellisario/hostname-patcher/issues"
@@ -27,6 +27,7 @@
   "license": "MIT",
   "devDependencies": {
     "@jsdevtools/npm-publish": "^1.4.3",
+    "ava": "^4.3.3",
     "nodemailer": "^6.7.6"
   }
 }

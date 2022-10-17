@@ -10,6 +10,6 @@ if (!token) {
 }
 // publish the package to NPM
 npmPublish({
-  package: './package.json',
-  token
+    package: './package.json',
+    token
 });
