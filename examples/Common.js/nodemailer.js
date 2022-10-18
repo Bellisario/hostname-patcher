@@ -1,7 +1,7 @@
-// import patch first
-import '../../lib/index';
+// require patch first
+require('../../lib/index');
 // then nodemailer
-import nodemailer from 'nodemailer';
+const nodemailer = require('nodemailer');
 
 async function sendTestMail() {
     const testAccount = await nodemailer.createTestAccount();
@@ -20,8 +20,8 @@ async function sendTestMail() {
         from: '"Foo" <foo@example.com>',
         to: 'bar@example.com',
         subject: 'It works!!!',
-        text: 'Successfully patched Nodemailer!',
-        html: 'Successfully patched <b>Nodemailer</b>!',
+        text: 'Successfully patched nodemailer!',
+        html: 'Successfully patched <b>nodemailer</b>!',
     });
 
     console.log('Message sent: %s', info.messageId);

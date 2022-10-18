@@ -1,6 +1,6 @@
 {
   "name": "hostname-patcher",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Patches os.hostname() for Windows 7 devices using a not officially Node.js supported version",
   "keywords": [
     "os",
@@ -13,7 +13,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "npm-publish": "node ./publish.js",
-    "test": "echo \"Install package with DEV Dependencies and run code inside test folder to test\" && exit 0"
+    "test": "ava ./test/index.js"
   },
   "bugs": {
     "url": "https://github.com/Bellisario/hostname-patcher/issues"
@@ -22,11 +22,12 @@
     "type": "git",
     "url": "https://github.com/Bellisario/hostname-patcher.git"
   },
-  "homepage": "https://github.com/Bellisario/hostname-patcher",
+  "homepage": "https://github.com/Bellisario/hostname-patcher#readme",
   "author": "Bellisario",
   "license": "MIT",
   "devDependencies": {
     "@jsdevtools/npm-publish": "^1.4.3",
+    "ava": "^4.3.3",
     "nodemailer": "^6.7.6"
   }
 }
