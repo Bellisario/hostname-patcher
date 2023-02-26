@@ -65,7 +65,7 @@ console.log(os.hostname());
 
 ## Tested modules
 
-- [Nodemailer](https://github.com/nodemailer/nodemailer) (Common.js example [here](https://github.com/Bellisario/hostname-patcher/blob/master/examples/Common.js/nodemailer.js) and ES6 [here](https://github.com/Bellisario/hostname-patcher/blob/master/examples/ES6/nodemailer.mjs))
+- ~~[Nodemailer](https://github.com/nodemailer/nodemailer) (Common.js example [here](https://github.com/Bellisario/hostname-patcher/blob/master/examples/Common.js/nodemailer.js) and ES6 [here](https://github.com/Bellisario/hostname-patcher/blob/master/examples/ES6/nodemailer.mjs))~~ (not anymore required because the last version [seems to have a fallback](https://github.com/nodemailer/nodemailer/blob/e3cc93a9c20939b209c804857c75aea0d3305913/lib/smtp-connection/index.js#L1773-L1780))
 
 - __Let us know this patch is useful for other modules__
 
